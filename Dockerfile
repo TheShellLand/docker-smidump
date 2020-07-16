@@ -1,7 +1,6 @@
 FROM python:3
 
 COPY entry.sh /
-COPY env.sh /
 COPY generate.sh /
 COPY generate_maps.py /
 COPY requirements.txt /
